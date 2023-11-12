@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background: #f2f2f2;
+  justify-content: center;
+  padding: 100px 20px;
+  display: grid;
+}
+
+input {
+  border: none;
+  outline: none;
+  background: #f2f2f2;
+  box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #ffffff;
+  border-radius: 15px;
+  padding: 20px 25px;
+  margin: 10px 0;
+  max-width: 400px;
+  font-size: 1.2rem;
+  color: #333;
+  cursor: pointer;
+}
+
+.result-container {
+  margin-top: 20px;
+  padding: 20px 25px;
+  border-radius: 15px;
+  background: #f2f2f2;
+  box-shadow: 8px 8px 8px #cbced1, -8px -8px 8px #ffffff;
+  max-width: 400px;
+}
+
+.result-container p {
+  font-size: 1.2rem;
+  color: #333;
+}
